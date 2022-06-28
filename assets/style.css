@@ -11,7 +11,7 @@
 body {
     width: 100%;
     height: 100vh;
-    background-color: #6F6F6F;
+    background-color: #1f6339;
 }
 
 main {
@@ -20,7 +20,7 @@ main {
 
 aside {
     max-width: 300px;
-    height: 100vh;
+    min-height: 100vh;
     border: 2px solid #F5F5F5;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -50,41 +50,57 @@ aside figure img {
     border-radius: 50%;
 }
 
+.sobreMim-perfil {}
+
 .sobreMim-perfil p {
     padding: 8px;
     padding-top: 12px;
     text-align: center;
     /*border-top: 2px solid #F5F5F5;*/
     border-radius: 10px;
-
 }
 
 .rede-social img {
+    width: 44px;
     height: 44px;
 }
 
 hgroup {
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
 }
-/*
+
 article {
     width: 600px;
     height: 300px;
-    margin-top: 60px;
+    margin-bottom: 60px;
     display: flex;
     flex-direction: column;
-    background-color: aquamarine;
+
 }
 
 article figure {
     width: 100%;
     height: 100px;
-    background-color: darkgoldenrod;
 }
-article figcaption {
+
+.img-projeto {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.descricao-projeto {
     width: 100%;
     height: 200px;
-    background-color: blue;
+    padding: 10px;
+    padding-left: 14px;
+    background-color: #aaaaaa;
+    border-radius: 10px;
+}
+
+.descricao-projeto h2 {
+    margin-bottom: 8px;
 }
